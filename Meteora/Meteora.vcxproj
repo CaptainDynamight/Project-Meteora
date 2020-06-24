@@ -87,7 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies/GLFW/include;%(AdditionalIncludeDirectories);$(SolutionDir)Dependencies/GLEW/include;$(SolutionDir)Dependencies/GLM</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies/GLFW/include;%(AdditionalIncludeDirectories);$(SolutionDir)Dependencies/GLEW/include;$(SolutionDir)Dependencies/GLM;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies/GLFW/include;%(AdditionalIncludeDirectories);$(SolutionDir)Dependencies/GLEW/include;$(SolutionDir)Dependencies/GLM</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies/GLFW/include;%(AdditionalIncludeDirectories);$(SolutionDir)Dependencies/GLEW/include;$(SolutionDir)Dependencies/GLM;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -150,17 +150,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Camera.h" />
+    <ClInclude Include="src\Headers\DisplayManager.h" />
     <ClInclude Include="src\Headers\Entity.h" />
+    <ClInclude Include="src\Headers\GameManager.h" />
     <ClInclude Include="src\Headers\Light.h" />
     <ClInclude Include="src\Headers\Loader.h" />
     <ClInclude Include="src\Headers\MasterRenderer.h" />
     <ClInclude Include="src\Headers\Maths.h" />
     <ClInclude Include="src\Headers\ModelTexture.h" />
     <ClInclude Include="src\Headers\OBJLoader.h" />
+    <ClInclude Include="src\Headers\Player.h" />
     <ClInclude Include="src\Headers\RawModel.h" />
     <ClInclude Include="src\Headers\EntityRenderer.h" />
     <ClInclude Include="src\Headers\ShaderProgram.h" />
     <ClInclude Include="src\Headers\stb_image.h" />
+    <ClInclude Include="src\Headers\stb_image.hpp" />
     <ClInclude Include="src\Headers\Terrain.h" />
     <ClInclude Include="src\Headers\TerrainRenderer.h" />
     <ClInclude Include="src\Headers\TerrainShader.h" />

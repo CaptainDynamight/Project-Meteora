@@ -1,2 +1,14 @@
 ﻿  main.cpp
+G:\Projects\Meteora\Meteora\src\Headers\Terrain.h(36,11): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(61,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(62,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(66,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(67,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(69,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(70,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(79,28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(92,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(94,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(96,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+G:\Projects\Meteora\Meteora\src\Headers\GameManager.h(98,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Meteora.vcxproj -> G:\Projects\Meteora\Debug\Meteora.exe

@@ -10,8 +10,20 @@ class MasterRenderer
 		MasterRenderer()
 		{
 			projectionMatrix = createProjectionMatrix();
+
+			// Don't draw faces we can't see
 			glEnable(GL_CULL_FACE);
 			glCullFace(GL_BACK);
+			// Tell OpenGL to test for depth
+			glEnable(GL_DEPTH_TEST);
+			// Set clear color and clear the screen
+			glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
+			// Enable alpha blend
+			glEnable(GL_BLEND);
+			glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+			// Enable Antialiasing
+			glEnable(GL_MULTISAMPLE);
+
 			renderer = new EntityRenderer(shader, projectionMatrix);
 			terrainRenderer = new TerrainRenderer(terrainShader, projectionMatrix);
 		}

@@ -149,7 +149,7 @@ class ShaderProgram
 
 		void loadViewMatrix(Camera camera)
 		{
-			glm::mat4 viewMatrix = Camera::createViewMatrix(camera);
+			glm::mat4 viewMatrix = camera.createViewMatrix();
 			loadMatrix(location_viewMatrix, viewMatrix);
 		}
 

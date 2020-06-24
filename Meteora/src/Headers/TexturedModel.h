@@ -9,6 +9,8 @@ class TexturedModel
 		ModelTexture texture;
 
 	public:
+		TexturedModel() = default;
+
 		TexturedModel(RawModel model, ModelTexture texture) : rawModel(model), texture(texture)
 		{
 			this->rawModel = model;

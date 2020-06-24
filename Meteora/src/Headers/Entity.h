@@ -11,7 +11,9 @@ class Entity
 		glm::vec3 m_scale;
 
 	public:
-		Entity(TexturedModel model, glm::vec3 position, glm::vec3 rotation, glm::vec3 scale) : m_model(model), m_position(position), m_rotation(rotation), m_scale(scale)
+		Entity() = default;
+
+		Entity(TexturedModel model, glm::vec3 position, glm::vec3 rotation, glm::vec3 scale)
 		{
 			m_model = model;
 			m_position = position;

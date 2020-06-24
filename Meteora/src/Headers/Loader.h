@@ -7,7 +7,7 @@
 #include <vector>
 #include <list>
 #include "glm\glm.hpp"
-#include "stb_image.h"
+#include "stb_image.hpp"
 
 
 class Loader
